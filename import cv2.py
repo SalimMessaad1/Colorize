@@ -1,5 +1,5 @@
 # By salm messaad 
-# https://www.linkedin.com/in/salim-messaad-3364b5273/
+# https://www.linkedin.com/in/salimmessaad
 import cv2
 import numpy as np
 
@@ -22,7 +22,7 @@ original_image = cv2.imread('123.jpg')
 
 # Check test
 if original_image is None:
-    print("Error: Could not load image.")
+    print("Error: Could not load image, Double check again for path or name of image sir")
     exit()
 
 scaled_image = original_image.astype("float32") / 255.0
